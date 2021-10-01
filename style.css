@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: radial-gradient(circle, rgba(187,231,254,1) 22%, rgba(211,181,229,1) 63%, rgba(255,212,219,1) 91%);
+    background-size: 200%;
+    font-family: 'Suez One';
+}
+
+header {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.button {
+    padding: 30px;
+    margin-top: 50px;
+    background-color: red;
+    color: white;
+    font-family: 'Suez One';
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(128, 1, 1);
+}
